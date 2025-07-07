@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マップ - 大学周辺 駐車場案内</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1><a href="index.html">〇〇大学 駐車場案内</a></h1>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="index.html">トップ</a></li>
+                    <li><a href="parking_info.html">駐車場一覧</a></li>
+                    <li><a href="map.html" class="active">マップ</a></li>
+                    <li><a href="comparison.html">料金比較</a></li>
+                    <li><a href="about.html">作成者情報</a></li>
+                </ul>
+            </nav>
+            <button id="mobile-menu-button" class="mobile-nav-button">☰</button>
+        </div>
+        <nav id="mobile-menu" class="mobile-nav">
+            <ul>
+                <li><a href="index.html">トップ</a></li>
+                <li><a href="parking_info.html">駐車場一覧</a></li>
+                <li><a href="map.html">マップ</a></li>
+                <li><a href="comparison.html">料金比較</a></li>
+                <li><a href="about.html">作成者情報</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section>
+                <h2>マップ</h2>
+                <div class="map-container">
+                    <h3>駐車場 位置関係マップ</h3>
+                    <div class="map-placeholder">
+                        <p>（ここにGoogle Mapsなどの地図を埋め込みます）</p>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <h3>大学への経路</h3>
+                    <div class="map-placeholder">
+                        <p>（ここに駐車場から大学への経路が表示されます）</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 〇〇大学 駐車場案内. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- トップへ戻るボタン -->
+    <button id="scrollToTopBtn" title="トップへ戻る">↑</button>
+
+    <!-- 外部JavaScriptファイルの読み込み -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

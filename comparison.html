@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>料金比較 - 大学周辺 駐車場案内</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/comparison.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1><a href="index.html">〇〇大学 駐車場案内</a></h1>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="index.html">トップ</a></li>
+                    <li><a href="parking_info.html">駐車場一覧</a></li>
+                    <li><a href="map.html">マップ</a></li>
+                    <li><a href="comparison.html" class="active">料金比較</a></li>
+                    <li><a href="about.html">作成者情報</a></li>
+                </ul>
+            </nav>
+            <button id="mobile-menu-button" class="mobile-nav-button">☰</button>
+        </div>
+        <nav id="mobile-menu" class="mobile-nav">
+            <ul>
+                <li><a href="index.html">トップ</a></li>
+                <li><a href="parking_info.html">駐車場一覧</a></li>
+                <li><a href="map.html">マップ</a></li>
+                <li><a href="comparison.html">料金比較</a></li>
+                <li><a href="about.html">作成者情報</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section>
+                <h2>料金比較</h2>
+                <h3>駐車時間ごとの料金</h3>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>駐車場名</th>
+                                <th>1時間</th>
+                                <th>3時間</th>
+                                <th>5時間</th>
+                                <th>最大料金</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Aパーキング</td>
+                                <td>400円</td>
+                                <td>1,200円</td>
+                                <td>1,200円</td>
+                                <td class="price-max">1,200円</td>
+                            </tr>
+                            <tr>
+                                <td>Bパーキング</td>
+                                <td>300円</td>
+                                <td>900円</td>
+                                <td>1,000円</td>
+                                <td class="price-max best-price">1,000円</td>
+                            </tr>
+                            <tr>
+                                <td>Cパーキング</td>
+                                <td>300円</td>
+                                <td>900円</td>
+                                <td>1,500円</td>
+                                <td class="price-max">1,500円</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3>こんな人におすすめ！</h3>
+                <div class="recommendation">
+                    <h4>短時間 (〜3時間) の利用なら...</h4>
+                    <p><strong>Bパーキング</strong>または<strong>Cパーキング</strong>がおすすめです。</p>
+                </div>
+                <div class="recommendation">
+                    <h4>長時間 (5時間〜) の利用なら...</h4>
+                    <p><strong>Bパーキング</strong>が最もお得です。</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 〇〇大学 駐車場案内. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- トップへ戻るボタン -->
+    <button id="scrollToTopBtn" title="トップへ戻る">↑</button>
+
+    <!-- 外部JavaScriptファイルの読み込み -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
