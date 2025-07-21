@@ -227,3 +227,13 @@ tbody tr:nth-of-type(even) {
     margin: 0 0 5px 0;
     color: #004085;
 }
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+    .mobile-nav-button {
+        display: block;
+    }
+}
