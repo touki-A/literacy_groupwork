@@ -2,19 +2,19 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>マップ - 大学周辺 駐車場案内</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/map.css">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <link href="css/map.css" rel="stylesheet">
 </head>
 <body>
 
     <header>
         <div class="container">
-            <h1><a href="index.html">〇〇大学 駐車場案内</a></h1>
+            <h1><a href="index.html">名城大学 駐車場案内</a></h1>
             <nav class="desktop-nav">
                 <ul>
-                    <li><a href="index.html">トップ</a></li>
                     <li><a href="parking_info.html">駐車場一覧</a></li>
                     <li><a href="map.html" class="active">マップ</a></li>
                     <li><a href="comparison.html">料金比較</a></li>
@@ -25,7 +25,6 @@
         </div>
         <nav id="mobile-menu" class="mobile-nav">
             <ul>
-                <li><a href="index.html">トップ</a></li>
                 <li><a href="parking_info.html">駐車場一覧</a></li>
                 <li><a href="map.html">マップ</a></li>
                 <li><a href="comparison.html">料金比較</a></li>
@@ -41,7 +40,7 @@
                 <div class="map-container">
                     <h3>駐車場 位置関係マップ</h3>
                     <div class="map-placeholder">
-                        <p>（ここにGoogle Mapsなどの地図を埋め込みます）</p>
+                       <img src="locations.png">
                     </div>
                 </div>
                 <div class="map-container">
@@ -63,8 +62,7 @@
     <!-- トップへ戻るボタン -->
     <button id="scrollToTopBtn" title="トップへ戻る">↑</button>
 
-    <!-- 外部JavaScriptファイルの読み込み -->
-    <script src="js/main.js"></script>
+    
 
 </body>
 </html>

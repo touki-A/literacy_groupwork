@@ -2,19 +2,19 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>料金比較 - 大学周辺 駐車場案内</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/comparison.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <link href="css/comparison.css" rel="stylesheet">
 </head>
 <body>
 
     <header>
         <div class="container">
-            <h1><a href="index.html">〇〇大学 駐車場案内</a></h1>
+            <h1><a href="index.html">名城大学 駐車場案内</a></h1>
             <nav class="desktop-nav">
                 <ul>
-                    <li><a href="index.html">トップ</a></li>
                     <li><a href="parking_info.html">駐車場一覧</a></li>
                     <li><a href="map.html">マップ</a></li>
                     <li><a href="comparison.html" class="active">料金比較</a></li>
@@ -25,7 +25,6 @@
         </div>
         <nav id="mobile-menu" class="mobile-nav">
             <ul>
-                <li><a href="index.html">トップ</a></li>
                 <li><a href="parking_info.html">駐車場一覧</a></li>
                 <li><a href="map.html">マップ</a></li>
                 <li><a href="comparison.html">料金比較</a></li>
@@ -52,25 +51,25 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Aパーキング</td>
-                                <td>400円</td>
-                                <td>1,200円</td>
-                                <td>1,200円</td>
-                                <td class="price-max">1,200円</td>
+                                <td>塩釜口第一パーキング</td>
+                                <td>100円</td>
+                                <td>300円</td>
+                                <td>500円</td>
+                                <td class="price-max">700円</td>
                             </tr>
                             <tr>
-                                <td>Bパーキング</td>
+                                <td>塩釜口第二パーキング</td>
+                                <td>100円</td>
                                 <td>300円</td>
-                                <td>900円</td>
-                                <td>1,000円</td>
-                                <td class="price-max best-price">1,000円</td>
+                                <td>500円</td>
+                                <td class="price-max best-price">700円</td>
                             </tr>
                             <tr>
-                                <td>Cパーキング</td>
+                                <td>塩釜口第三パーキング</td>
+                                <td>100円</td>
                                 <td>300円</td>
-                                <td>900円</td>
-                                <td>1,500円</td>
-                                <td class="price-max">1,500円</td>
+                                <td>500円</td>
+                                <td class="price-max">700円</td>
                             </tr>
                         </tbody>
                     </table>
@@ -79,11 +78,11 @@
                 <h3>こんな人におすすめ！</h3>
                 <div class="recommendation">
                     <h4>短時間 (〜3時間) の利用なら...</h4>
-                    <p><strong>Bパーキング</strong>または<strong>Cパーキング</strong>がおすすめです。</p>
+                    <p><strong>第二パーキング</strong>または<strong>第三パーキング</strong>がおすすめです。</p>
                 </div>
                 <div class="recommendation">
                     <h4>長時間 (5時間〜) の利用なら...</h4>
-                    <p><strong>Bパーキング</strong>が最もお得です。</p>
+                    <p><strong>第二パーキング</strong>が最もお得です。</p>
                 </div>
             </section>
         </div>
@@ -91,15 +90,15 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 〇〇大学 駐車場案内. All Rights Reserved.</p>
+            <p>&copy; 2025 名城大学 駐車場案内. All Rights Reserved.</p>
         </div>
     </footer>
 
     <!-- トップへ戻るボタン -->
     <button id="scrollToTopBtn" title="トップへ戻る">↑</button>
 
-    <!-- 外部JavaScriptファイルの読み込み -->
-    <script src="js/main.js"></script>
+
+    
 
 </body>
 </html>
