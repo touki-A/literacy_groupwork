@@ -11,7 +11,25 @@
     box-sizing: border-box;
 }
 
+nav.floating {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background-color: #d0d0d0;
+}
 
+nav.floating ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.floating a {
+    color: inherit;          
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -220,23 +238,4 @@ tbody tr:nth-of-type(even) {
     .mobile-nav-button {
         display: block;
     }
-    nav.floating {
-    position: absolute;
-    top: 100px;
-    left: 50px;
-    background-color: #d0d0d0;
-}
-
-nav.floating ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav.floating a {
-    color: inherit;          
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-}
 }
