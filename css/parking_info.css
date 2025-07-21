@@ -205,3 +205,13 @@ footer {
 .parking-card p {
     margin: 5px 0;
 }
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+    .mobile-nav-button {
+        display: block;
+    }
+}
