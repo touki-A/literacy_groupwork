@@ -196,3 +196,13 @@ footer {
     align-items: center;
     color: #6c757d;
 }
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+    .mobile-nav-button {
+        display: block;
+    }
+}
