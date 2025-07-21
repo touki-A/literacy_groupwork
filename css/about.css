@@ -212,3 +212,13 @@ footer {
     margin: 0 auto;
     line-height: 1.8;
 }
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+    .mobile-nav-button {
+        display: block;
+    }
+}
