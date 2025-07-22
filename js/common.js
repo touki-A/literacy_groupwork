@@ -1,5 +1,4 @@
 window.addEventListener('load', function () {
-    // --- モバイルメニューのトグル機能 ---
     var mobileMenuButton = document.getElementById('mobile-menu-button');
     var mobileMenu = document.getElementById('mobile-menu');
 
